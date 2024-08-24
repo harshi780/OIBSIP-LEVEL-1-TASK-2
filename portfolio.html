@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+    <title>Creative Solutions | Developer Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Harshitha</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="intro">
+      <div class="intro__container">
+        <div class="intro__image">
+          <img src="E:/portfolio/profile2.jpg" alt="Harshitha" />
+        </div>
+        <div class="intro__content">
+          <p class="intro__greeting">Hello!</p>
+          <h1 class="intro__title">
+            I'm <span>Harshitha</span>, a Full Stack Developer
+          </h1>
+          <p class="intro__description">
+            Welcome to my portfolio! I'm Harshitha, a passionate full stack developer with experience in creating dynamic and interactive web applications. My expertise spans both front-end and back-end technologies, ensuring that I can build comprehensive solutions tailored to your needs.
+          </p>
+          <div class="intro__contact">
+            <p>Email: <a href="mailto:harshitha.kalidindi24@gmail.com">harshitha.kalidindi24@gmail.com</a></p>
+            <p>Phone: <a href="tel:7416969218>+7416969218</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="skills__container">
+        <h2>Skills</h2>
+        <ul>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>CSS / Sass</li>
+          <li>Python</li>
+          <li>Database Management</li>
+        </ul>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="projects__container">
+        <h2>Featured Projects</h2>
+        <div class="project__item">
+          <img src="E:/portfolio/project1.jpg" alt="Weather forecasting application" />
+          <div class="project__info">
+            <h3>Weather forecasting application</h3>
+            <p>
+Description:
+
+The Weather Forecasting Application is a web-based platform designed to provide users with real-time weather updates and forecasts for any location around the world. The application utilizes various APIs and technologies to deliver accurate and timely weather information, including current conditions, hourly forecasts, and extended weather predictions.
+
+Here’s a brief description for a weather forecasting application project:
+Weather Forecasting Application
+Description:
+
+The Weather Forecasting Application is a web-based platform designed to provide users with real-time weather updates and forecasts for any location around the world. The application utilizes various APIs and technologies to deliver accurate and timely weather information, including current conditions, hourly forecasts, and extended weather predictions.
+
+Key Features:
+
+Real-Time Weather Data: Fetches and displays up-to-date weather information including temperature, humidity, wind speed, and weather conditions.
+Location-Based Forecasts: Allows users to search for weather information by city name or geographical coordinates.
+Hourly and Daily Forecasts: Provides detailed forecasts for the upcoming hours and days.
+Weather Alerts: Notifies users of severe weather conditions and alerts.
+User-Friendly Interface: Features an intuitive and responsive design for seamless user experience across devices.
+Technologies Used:
+Front-End:
+React: For building a dynamic and interactive user interface.
+CSS/Sass: For styling and ensuring responsive design.
+Back-End:
+Node.js: For handling API requests and server-side logic.
+</p>
+          </div>
+        </div>
+        <div class="project__item">
+          <img src="E:/portfolio/project2.jpg" alt="Face detection" />
+          <div class="project__info">
+            <h3>Face detection</h3>
+            <p>Description:
+
+The Face Detection Application is a computer vision project designed to identify and locate human faces within images or video streams. The application uses advanced image processing techniques to detect faces with high accuracy, making it suitable for a variety of use cases including security, user authentication, and personalized experiences.
+Technologies Used:
+
+Front-End:
+JavaScript / HTML5 Canvas: For displaying and processing images in the browser (if applicable).
+Back-End:
+Python: For server-side processing and implementing face detection algorithms.
+Libraries & Frameworks:
+OpenCV: For image processing and face detection tasks.
+Dlib: For advanced face detection and facial landmark identification.
+TensorFlow / Keras: For machine learning models related to face recognition (if used).</p>
+          </div>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </section>
+    <section class="resume">
+      <div class="resume__container">
+        <h2>Resume</h2>
+        <p>You can download my resume <a href="E:/portfolio/resume.pdf" download>here</a>.</p>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact__container">
+        <h2>Contact Me</h2>
+        <form action="mailto:harshitha.kalidindi24@gmail.com" method="post" enctype="text/plain">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
+
